@@ -1,0 +1,11 @@
+yt-dlp
+librosa
+soundfile
+numpy
+pandas
+matplotlib
+tqdm
+audiomentations
+torch
+torchvision
+scikit-learn

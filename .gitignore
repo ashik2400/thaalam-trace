@@ -1,0 +1,32 @@
+# --- Generated data (huge, regenerable by rerunning the pipeline) ---
+data/*
+!data/label_corrections.csv
+!data/performance_groups.csv
+!data/review_sheet.html
+
+# --- Model artifacts / training outputs ---
+models/
+
+# --- YouTube auth ---
+cookies.txt
+*.cookies.txt
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- Jupyter (if you use notebooks for exploration) ---
+.ipynb_checkpoints/
+
+# --- OS/editor cruft ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log
