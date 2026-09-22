@@ -102,17 +102,3 @@ to top it up, then re-run `03`.
   spectrogram images, and the pipeline diagram (download → segment → filter
   → spectrogram → label).
 
-## Notes / things to flag to your mam
-
-- **Labels are weak-labeled** (from your search query / video title), not
-  manually verified for every clip — standard practice for a first-pass
-  dataset, and you spot-checked a sample on Day 2.
-- **Thayambaka** has no fixed kalam structure, so it only needs melam-level
-  labels — no extra work there.
-- **Legal/ethical note**: downloading is for non-commercial academic research
-  and internal model training, not redistribution. Keep source video URLs
-  in `raw_metadata.csv` so you can always cite/attribute back to the
-  original uploader if asked.
-- If YouTube availability turns out patchy for a class (e.g. Panchavadyam),
-  widen `SEARCH_QUERIES` in `config.py` — the Malayalam-script queries often
-  surface a different set of uploads than the English ones.
